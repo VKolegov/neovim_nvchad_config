@@ -1,0 +1,30 @@
+# Neovim runtime files
+.netrwhist
+plugin/
+
+# Manual plugin installations (redundant with lazy.nvim)
+pack/
+
+# Backup files
+*.backup
+*.bak
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+.directory
+
+# Lazy.nvim cache (will be regenerated)
+.lazy/
+
+# Mason LSP installations (installed per machine)
+mason/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
